@@ -39,17 +39,17 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Pasos para usar el proyecto
 
-1 - Clonar el proyecto
-2 - Asegurarse de tener nodejs instalado para correr comandos npm
-3 - Situarse dentro de la carpeta master raiz y correr el comando npm install
-4 - Correr el comando npm install yarn
-5 - Correr el comando yarn start
-6 - Aqui estara en modo desarrollo para modificar o pruebas, para pasar a produccion deberia correr yarn build y tomar el contenido que se genero dentro de la carpeta build y colocarlo en el direccio raiz   de ese dominio o sudominio
-7 - Copiar contenido de /server_apache/ a la misma carpeta del paso 6
-8 - Dependiendo de si esta en produccion o desarrollo configurar los primeros pasos de este Readme
-9 - Importar de /data_base_for_import/ el sql que contiene la estructura de la base de datos mysql
-10 - Crear un administrador para ello correr el script php creando_user.php, si estubiera en un servidor local seria algo como esto http://localhost/apis/creando_user.php, se coloca esa direccion en el navegador se presiona enter y veriamos como se creo el administrador, se recomienda borrar ese php despues del proceso ya que es el unico que no cuenta con ninguna seguridad o validacion para la db, es unicamente para crear el admin en este paso.
-11 - Probar a crear usuarios, cursos, talleres, notas, etc.
+1 - Clonar el proyecto<br/>
+2 - Asegurarse de tener nodejs instalado para correr comandos npm<br/>
+3 - Situarse dentro de la carpeta master raiz y correr el comando npm install<br/>
+4 - Correr el comando npm install yarn<br/>
+5 - Correr el comando yarn start<br/>
+6 - Aqui estara en modo desarrollo para modificar o pruebas, para pasar a produccion deberia correr yarn build y tomar el contenido que se genero dentro de la carpeta build y colocarlo en el direccio raiz   de ese dominio o sudominio<br/>
+7 - Copiar contenido de /server_apache/ a la misma carpeta del paso 6<br/>
+8 - Dependiendo de si esta en produccion o desarrollo configurar los primeros pasos de este Readme<br/>
+9 - Importar de /data_base_for_import/ el sql que contiene la estructura de la base de datos mysql<br/>
+10 - Crear un administrador para ello correr el script php creando_user.php, si estubiera en un servidor local seria algo como esto http://localhost/apis/creando_user.php, se coloca esa direccion en el navegador se presiona enter y veriamos como se creo el administrador, se recomienda borrar ese php despues del proceso ya que es el unico que no cuenta con ninguna seguridad o validacion para la db, es unicamente para crear el admin en este paso.<br/>
+11 - Probar a crear usuarios, cursos, talleres, notas, etc.<br/>
 
 ## Scripts disponibles
 
