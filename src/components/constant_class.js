@@ -1,0 +1,1 @@
+export const IP_SERVIDOR_PETICIONES_PHP = ""; //vacia para deploy en servidor pero para desarrollo necesario vacio // tambien tocar cookies para server secure // base login system apagar debuger para server //variable de server config.php tambien debe ser cambiada para produccion a true

@@ -1,0 +1,24 @@
+.contendor_perfil{
+    position: relative;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+
+
+
+.load_spinner_update_perfil {
+    text-align: center;
+    padding-top: 5%;
+}
+
+.show_error{
+    display: block;
+}
+
+.estilo_error_pass{
+    text-align: center;
+    margin-top: 0;
+}
+
+

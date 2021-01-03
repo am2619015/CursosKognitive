@@ -1,0 +1,9 @@
+.footer_final{
+    position: fixed;
+    bottom: 0 !important;
+    width: 100vw;
+    z-index: 10;
+}
+
+
+    

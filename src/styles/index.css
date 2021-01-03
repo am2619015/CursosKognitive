@@ -1,0 +1,218 @@
+/* va a la par con el header debe considerarse como la raiz o body*/
+#root {
+    display: block;
+    /* justify-content: center; */
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    /* overflow: hidden; */
+    font-family: 'Nanum Gothic', sans-serif;
+    /*perspective: 700px;*/
+    background: white;
+
+    overflow-x: hidden; 
+    overflow-y: scroll;
+
+    position: relative;
+  }
+
+  #root * {
+    box-sizing: border-box;
+    /*transform-style: preserve-3d;*/
+    transform-style: inherit;
+  }
+
+  .error_404{
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .dropdown{
+      z-index: 998;
+  }
+
+  .no-paddingForce{
+    padding: 0 !important;
+  }
+
+  .display--none{
+    display: none !important;
+  }
+
+  .display--block{
+    display: block !important;
+  }
+
+  .no_outlineButtons:focus {   
+    border-color: rgba(18, 117, 112, 0.8);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(18, 117, 112, 0.6);
+    outline: 0 none;
+  }
+
+  .no_outlineButtons_noShadow,.no_outlineButtons_noShadow:focus,.no_outlineButtons_noShadow:hover{  
+    border-color: rgba(42, 42, 43, 0.8);
+    box-shadow: none;
+    outline: 0 none;
+  }
+
+  .icono_perfil{
+    padding-right: 5px;
+  }
+
+  .titulo_form{
+    padding-bottom: 15px;
+   }
+
+   
+.input_nombre{
+    padding-left: 3% !important;
+}
+
+.input_password{
+    padding-left: 3% !important;
+}
+
+
+.main_load_curso_spiner{
+    text-align: center;
+    padding-top: 20%;
+}
+
+.main_load_curso_spiner_2{
+  text-align: center;
+  padding-top: 2%;
+
+}
+
+.loader_spiner_cursos{
+  width: 8rem;
+  height: 8rem;
+}
+
+.contenedor_cursos{
+    padding-top: 5%;
+    padding-bottom:5%;
+}
+
+.contenedor_formulario{
+  position: relative;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+
+.perfil_nav_left{
+  background-color: #E3F2FD;
+  border-radius: 5px;
+  height: 50vh;
+  min-height: 100%;
+  padding-top: 25px;
+  margin-bottom: 0px;
+}
+
+.perfil_nav_right{
+  padding-top: 25px;
+  margin-top: 0px;
+  padding-bottom: 60px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #ECEFF1 !important;
+  background-color: #3949AB !important;
+}
+
+input[type=text].form-control.valid + label:after,
+input[type=text].form-control:focus.valid + label:after,
+input[type=text].form-control.invalid + label:after,
+input[type=text].form-control:focus.invalid + label:after,
+input[type=password].form-control.valid + label:after,
+input[type=password].form-control:focus.valid + label:after,
+input[type=password].form-control.invalid + label:after,
+input[type=password].form-control:focus.invalid + label:after {
+  top: 3.75rem !important;
+}
+
+span.field-icon {
+  position: absolute;
+  display: inline-block;
+  cursor: pointer;
+  right: 0.5rem;
+  top: 0.7rem;
+  color:cornflowerblue;
+  z-index: 2;
+}
+
+.titulo_cursos{
+  font-weight: 750;
+}
+
+.notificacion_respuesta_formulario{
+  z-index: 9999;
+  position: absolute;
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+@media (max-width: 768px) {
+  .perfil_nav_left{
+      background-color: #E3F2FD;
+      border-radius: 5px;
+      height: auto;
+      min-height: 100%;
+      padding-top: 0px;
+      margin-bottom: 20px;
+  }
+
+  .perfil_nav_right{
+      padding-top: 0px;
+      margin-top: 25px;
+      padding-bottom: 0px;
+  }
+}
+
+
+
+@media (max-width: 666px) {
+    .contenedor_cursos{
+        padding-top: 15%;
+        padding-bottom:15%;
+    }    
+}
+
+/*
+@media (min-width: 992px){ 
+#root::-webkit-scrollbar {
+    width: 15px;
+    height: 15px;
+}
+
+#root::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg,#0b7a75,#18b7af);
+  border-radius: 30px;
+  box-shadow: inset 2px 2px 2px hsla(0,0%,100%,.25), inset -2px -2px 2px rgba(0,0,0,.25);
+}
+
+#root::-webkit-scrollbar-track {
+  background: linear-gradient(90deg,#201c29,#201c29 1px,#100e17 0,#100e17);
+}
+
+}*/
+
+  /* padding bottom para*/
+  .contenido_webs{
+    /*padding-bottom: 8.75rem;*/
+    margin-bottom: 0;
+  }
+  @media (max-width: 513px){
+    .contenido_webs {
+      /*margin-bottom: 50px;*/
+      padding-bottom: 0;
+  }
+}
+
+

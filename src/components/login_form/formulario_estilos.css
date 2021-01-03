@@ -1,0 +1,27 @@
+
+.condiciones{
+    padding-bottom: 15px;
+}
+
+.t_c{
+    padding-left: 0.5rem;
+    font-weight: bold;
+    color: #42a5f5;
+    cursor: pointer;
+}
+
+
+
+.modal_terminos_estilos{
+    font-size: 0.75rem;
+}
+
+.olvido_password_link{
+    font-size: 0.8rem;
+    color: #42a5f5;
+    cursor: pointer;
+}
+
+.olvido_password_link:hover{
+    color: #2875b4;
+}

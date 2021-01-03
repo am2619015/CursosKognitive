@@ -1,0 +1,134 @@
+.estilo_opciones_derecha{
+    overflow: visible !important;
+}
+
+.pagina_actual_estilo{
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 0.9rem;
+    line-height: 2.5;
+    border-radius: .25rem;
+}
+
+.titulo_carga_bar{
+    color: #495057;
+}
+
+.progress_bar_infinite .progress-bar{
+    left: 0;
+    position: relative;
+    animation-name: p_bar_infinite;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.tabla_estudiantes td{
+    font-size: .8rem;
+}
+
+.disabled_pagination{
+    display: none;
+}
+
+.formulario_search .md-form{
+    width: 50%;
+}
+
+.formulario_search_notas .md-form{
+    width: 90%;
+}
+
+.opciones_edit_delete{
+    cursor: pointer;
+}
+.opciones_edit_delete:hover{
+    color:#01579b !important;
+}
+
+.icono_busqueda{
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.15s ease-in-out;
+}
+
+.icono_busqueda:hover{
+    font-size: 1.1rem;
+    color: #01579b;
+}
+
+.eliminar_disabled{
+    pointer-events: none;
+    color: gray !important;
+}
+
+.label_input_image{
+    background-color: transparent;
+    border: 0;
+}
+
+.z-index-max{
+    z-index: 9999;
+}
+
+.input_video_editar{
+    width: max-content;
+}
+
+.panel_admin_parent .padre_modal_tablePicker .modal.fade.top.show{
+    pointer-events: all !important;
+}
+.panel_admin_parent .padre_modal_editTaller .modal.fade.top.show{
+    pointer-events: all !important;
+}
+.panel_admin_parent .modal.fade.top.show{
+    pointer-events: none !important;
+}
+.panel_admin_parent .modal.fade.right.show{
+    pointer-events: none !important;
+}
+
+.no_interaction_taller{
+    pointer-events: none;
+}
+.min_width_content{
+    max-width: min-content;
+}
+.max_width_content{
+    max-width: max-content;
+}
+
+.full_with_popover{
+    width: 30vw !important;
+    max-width: 30vw !important;
+}
+
+
+.download_excel{
+    cursor: pointer;
+    width: fit-content;
+}
+
+.download_excel:hover{
+    color: #1e88e5 ;
+}
+
+@media (max-width: 768px) {
+
+.full_with_popover{
+    width: 80vw !important;
+    max-width: 80vw !important
+}
+
+}
+
+
+@keyframes p_bar_infinite {
+    from {left: 0%;}
+    to {left: 100%;}
+  }

@@ -1,0 +1,113 @@
+.imgtest{
+    filter:blur(5px);
+    height:100%;
+    object-fit:contain;
+    width:100%;
+}
+
+.img_selecM{
+    height: auto;
+    width: 7rem;
+    padding-bottom: 15px;
+}
+.img_selecSmall{
+    max-width: 10rem;
+}
+
+.resp_invc{
+    opacity: 0;
+    display: none;
+}
+
+.contenedor_total_cuestionario{
+    padding-bottom: 5%;
+    padding-top:5%;
+}
+
+
+
+.italic-gray{
+    font-style: italic;
+    color: gray;
+}
+
+.nota_taller_visual{
+    line-height: 2rem;
+}
+
+.checkboxStyleCuest{
+    margin-right: 10px;
+}
+
+.pregunta_estilo{
+    padding-bottom: 10px;
+}
+
+/*.contenedor_total_cuestionario{
+    border: 2px solid black;
+    padding: 40px;
+    border-radius: 10px;
+}*/
+
+
+.contenedor_pregunta{
+    border: 2px solid #00796b;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    background-color: #e0f2f1;
+}
+
+.result_email_send{
+    background-color: #b2dfdb;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.bold_weight{
+    font-weight: bold;
+}
+
+.titulo_principal_taller{
+    padding-top: 1%;
+    font-variant-caps : petite-caps;
+}
+
+.logo_pdf_material_clase{
+    width: 14%;
+    margin: auto;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 666px) {
+    /*.contenedor_total_cuestionario{
+        border: 2px solid black;
+        padding: 15px;
+        border-radius: 10px;
+    }*/
+    .contenedor_pregunta{
+        border: 2px solid #00796b;
+        padding: 15px;
+        border-radius: 10px;
+        margin-bottom: 25px;
+        background-color: #e0f2f1;
+    }
+    .result_email_send{
+        background-color: #b2dfdb;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .titulo_principal_taller{
+        padding-top: 5%;
+        font-variant-caps : petite-caps;
+    }
+
+    .logo_pdf_material_clase{
+        width: 22vw;
+        margin: auto;
+        cursor: pointer;
+        margin-bottom: 15px;
+    }
+}

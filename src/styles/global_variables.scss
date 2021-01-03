@@ -1,0 +1,29 @@
+/* fuentes */
+
+@font-face {
+    font-family: 'FuturisticFontv1';
+    src: url('../fonts/good-times-rg.ttf')  format('truetype');
+  }
+
+  @font-face {
+    font-family: 'FuturisticFontv2';
+    src: url('../fonts/Beware.ttf')  format('truetype');
+  }
+
+  @font-face {
+    font-family: 'FuturisticFontv3';
+    src: url('../fonts/sofachrome-rg.ttf')  format('truetype');
+  }
+
+  @font-face {
+    font-family: 'contenidoFontv1';
+    src: url('../fonts/fuente_contenido1.woff')  format('woff');
+  }
+
+  .fuente_contenidov1{
+    font-family: 'contenidoFontv1';
+  }
+  .fuente_futurista{
+    font-family: 'FuturisticFontv1';
+  }
+
