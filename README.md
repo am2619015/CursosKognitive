@@ -3,9 +3,9 @@ En este proyecto se tiene un sistema de Gestion de cursos desde un panel adminis
 Por otra parte tambien se puede crear cursos, cada curso tiene dentro talleres, los cuales tambien se pueden crear, y cada taller tiene dentro cuestionarios, materiale didacticos y videos educativos, todos estos son editables, eliminables, y paginados en un buscador facil de usar, cabe señalar que cada curso tiene una caducidad por fecha para cada usuario lo cual se configura tambine desde el panel administrativo.<br /><br />
 Desde el punto de vista de un usuario se podra ingresar al perfil ver los datos, modificar, cambiar la contraseña, ingresar a un curso, resolver un taller, mirar notas, recibir la nota por correo electronico asi como la url para restaurar la contraseña si la solicitara.
 
-<img src="example1.jpg" width="50%" heigth="auto">   <img src="example2.jpg" width="50%" heigth="auto">
-<img src="example3.jpg" width="50%" heigth="auto">   <img src="example4.jpg" width="50%" heigth="auto">
-<img src="example5.jpg" width="50%" heigth="auto">   <img src="example6.jpg" width="50%" heigth="auto">
+<img src="img_example/example1.jpg" width="50%" heigth="auto">   <img src="img_example/example2.jpg" width="50%" heigth="auto">
+<img src="img_example/example3.jpg" width="50%" heigth="auto">   <img src="img_example/example4.jpg" width="50%" heigth="auto">
+<img src="img_example/example5.jpg" width="50%" heigth="auto">   <img src="img_example/example6.jpg" width="50%" heigth="auto">
 
 ## Configuracion Desarrollo
 
@@ -48,7 +48,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 7 - Copiar contenido de /server_apache/ a la misma carpeta del paso 6<br/>
 8 - Dependiendo de si esta en produccion o desarrollo configurar los primeros pasos de este Readme<br/>
 9 - Importar de /data_base_for_import/ el sql que contiene la estructura de la base de datos mysql<br/>
-10 - Crear un administrador para ello correr el script php creando_user.php, si estubiera en un servidor local seria algo como esto http://localhost/apis/creando_user.php, se coloca esa direccion en el navegador se presiona enter y veriamos como se creo el administrador, se recomienda borrar ese php despues del proceso ya que es el unico que no cuenta con ninguna seguridad o validacion para la db, es unicamente para crear el admin en este paso.<br/>
+10 - Crear un administrador para ello correr el script php creando_user.php, si estubiera en un servidor local seria algo como esto http://localhost/apis/creando_user.php, se coloca esa direccion en el navegador se presiona enter y veriamos como se creo el administrador, se recomienda borrar ese php despues del proceso ya que es el unico que no cuenta con ninguna seguridad o validacion para la db, es unicamente para crear el admin en este paso. (las contraseñas del admin las vera o definira en ese mismo php leyendolo)<br/>
 11 - Probar a crear usuarios, cursos, talleres, notas, etc.<br/>
 
 ## Scripts disponibles
