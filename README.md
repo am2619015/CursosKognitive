@@ -29,7 +29,8 @@ Este proyecto se compila con WebCompiler, otro proyecto de git ya tiene configur
 Se repararon varias vulneravilidades del proyecto y se actualizo paquetes a sus ultimaz versiones, el compilador debe ser realizado los mismos cambios<br/>
 Dentro del server_apache_code en apis, hay algunos php que no se llaman de ninguna parte desde el cliente con react, siendo las siguientes
 <br/>-regenerate_tokens.php
-<br/>-delete_token_restore_old.php
+<br/>-delete_token_restore_old.php<br/>
+La razon es que son Cron task que deben correr en un servidor
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
