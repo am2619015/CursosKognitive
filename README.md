@@ -1,7 +1,9 @@
 ## Informacion Proyecto
-En este proyecto se tiene un sistema de Gestion de cursos desde un panel administrativo donde se podra matricular estudiantes, mirar sus notas, eliminarlos, mirar quienes se logearon o quienes no, se podra recuperar la contraseña por email, asi como cambiar informacion en el perfil de cada usuario.<br />
-Por otra parte tambien se puede crear cursos, cada curso tiene dentro talleres, los cuales tambien se pueden crear, y cada taller tiene dentro cuestionarios, materiale didacticos y videos educativos, todos estos son editables, eliminables, y paginados en un buscador facil de usar, cabe señalar que cada curso tiene una caducidad por fecha para cada usuario lo cual se configura tambine desde el panel administrativo.<br /><br />
-Desde el punto de vista de un usuario se podra ingresar al perfil ver los datos, modificar, cambiar la contraseña, ingresar a un curso, resolver un taller, mirar notas, recibir la nota por correo electronico asi como la url para restaurar la contraseña si la solicitara.
+En este proyecto se tiene un sistema de Gestion de cursos desde un panel administrativo donde se podrá matricular estudiantes, mirar sus notas, eliminarlos, mirar quienes se logearon o quienes no, se podrá recuperar la contraseña por email, asi como cambiar información en el perfil de cada usuario.
+
+Por otra parte también se puede crear cursos, cada curso tiene dentro talleres, los cuales también se pueden crear, y cada taller tiene dentro cuestionarios, materiales didácticos y videos educativos, todos estos son editables, eliminables, y paginados en un buscador fácil de usar, cabe señalar que cada curso tiene una caducidad por fecha para cada usuario lo cual se configura también desde el panel administrativo.
+
+Desde el punto de vista de un usuario se podrá ingresar al perfil ver los datos, modificar, cambiar la contraseña, ingresar a un curso, resolver un taller, mirar notas, recibir la nota por correo electrónico así como la url para restaurar la contraseña si la solicitara.
 
 <img src="img_example/example1.jpg" width="50%" heigth="auto">   <img src="img_example/example2.jpg" width="50%" heigth="auto">
 <img src="img_example/example3.jpg" width="50%" heigth="auto">   <img src="img_example/example4.jpg" width="50%" heigth="auto">
